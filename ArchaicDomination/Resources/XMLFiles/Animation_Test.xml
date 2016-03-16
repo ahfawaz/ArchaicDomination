@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<Animations>
+  <Animation AnimationName="nameOfAnimation" ImageID ="Resources/Graphics/sprite_creeps.png" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="56.0" AnchorPointY="112.0" Duration=".5" Event="EventName"
+           RenderRectLeft="0" RenderRectTop="0" RenderRectRight="118" RenderRectBottom="127"
+           ActiveRectLeft="11" ActiveRectTop="22" ActiveRectRight="33" ActiveRectBottom="44"
+           CollisionRectLeft="111" CollisionRectTop="222" CollisionRectRight="333" CollisionRectBottom="444"/>
+    <Frame AnchorPointX="189.0" AnchorPointY="112.0" Duration="0.5" Event="EventName"
+           RenderRectLeft="138" RenderRectTop="0" RenderRectRight="238" RenderRectBottom="126"
+           ActiveRectLeft="11" ActiveRectTop="22" ActiveRectRight="33" ActiveRectBottom="44"
+           CollisionRectLeft="111" CollisionRectTop="222" CollisionRectRight="333" CollisionRectBottom="444"/>
+  </Animation>
+
+</Animations>

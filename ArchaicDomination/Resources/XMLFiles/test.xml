@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Maps>
+<Grid GridWidth="4" GridHeight="4" TileWidth="32" TileHeight="32">
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="0" LocY="0" PosX="0" PosY="0" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="32" LocY="0" PosX="0" PosY="1" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="64" LocY="0" PosX="0" PosY="2" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="96" LocY="0" PosX="0" PosY="3" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="0" LocY="32" PosX="1" PosY="0" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="32" LocY="32" PosX="1" PosY="1" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="64" LocY="32" PosX="1" PosY="2" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="96" LocY="32" PosX="1" PosY="3" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="0" LocY="64" PosX="2" PosY="0" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="32" LocY="64" PosX="2" PosY="1" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="64" LocY="64" PosX="2" PosY="2" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="96" LocY="64" PosX="2" PosY="3" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="0" LocY="96" PosX="3" PosY="0" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="32" LocY="96" PosX="3" PosY="1" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="64" LocY="96" PosX="3" PosY="2" />
+<Tile TileID="TileSystem/tilesetpok.png" Type="NONE" LocX="96" LocY="96" PosX="3" PosY="3" />
+  
+</Grid>
+</Maps>

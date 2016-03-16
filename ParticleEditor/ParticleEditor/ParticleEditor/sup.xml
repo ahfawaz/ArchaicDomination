@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Effect>
+  <Emitter ImageID="BFly.png" EmitterPosX="362" EmitterPosY="285" Width="32" Height="32" MinLife="2" MaxLife="6" GravityX="0" GravityY="0" CurrRotation="360" StartingRotation="1" EndingRotation="5" SpreadValue="360" AngularOffset="0" StartingAlpha="255" EndingAlpha="255" StartingColorR="255" EndingColorR="255" StartingColorG="255" EndingColorG="0" StartingColorB="0" EndingColorB="0" Looping="true" SpawnRate="0.01" MaxParticle="50" StartingAccelerationX="-65" EndingAccelerationX="65" StartingAccelerationY="-65" EndingAccelerationY="65" StartingVelocityX="-65" EndingVelocityX="65" StartingVelocityY="-65" EndingVelocityY="65" StartingScaleX="1" EndingScaleX="3" StartingScaleY="1" EndingScaleY="3" />
+</Effect>

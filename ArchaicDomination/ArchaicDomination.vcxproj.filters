@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Ability.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation System\AnimationSystem.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation System\AnimTimeStamp.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation System\Animation.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Acheivements.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcadeGamePlay.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Barracks.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AccuracyBar.cpp">
+      <Filter>Quick Time Events</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBar.cpp">
+      <Filter>Quick Time Events</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBuilding.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePlayer.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseUnit.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePlay.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LoseGame.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveGame.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="WinGame.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_Direct3D.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_DirectInput.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_EventSystem.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_MessageSystem.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_TextureManager.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_XAudio2.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCry.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Blizzard.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Charge.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Cleave.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkCharge.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkCurse.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="DrainLife.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpoweringCurse.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Explode.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameOn.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HealingCircle.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Judgement.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlagueOn.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowBolt.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonVolatileGhoul.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferLife.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFont.cpp">
+      <Filter>Bitmap Font</Filter>
+    </ClCompile>
+    <ClCompile Include="CatapultAttack.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BlizzardMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CatapultAttackingMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CleaveMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateAbilityMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateAbilityTwoMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyAbilityMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyDarkCurseMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyGhoulMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Capitol.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation System\Frames.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="HealingCircleMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="FillBar.cpp">
+      <Filter>Quick Time Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerBar.cpp">
+      <Filter>Quick Time Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SpamBar.cpp">
+      <Filter>Quick Time Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle System\Emitter.cpp">
+      <Filter>Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileSystem.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSystem\WorldTile.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSystem\WorldGrid.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\EntityManager.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSystem\Tile.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle System\Particle.cpp">
+      <Filter>Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Letters.cpp">
+      <Filter>Bitmap Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Farm.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodMill.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="WarFactory.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle System\ParticleSystem.cpp">
+      <Filter>Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_Math.cpp">
+      <Filter>SGD Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingText.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSystem\BattleGrid.cpp">
+      <Filter>Tile System</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyGhoulMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPlay.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Instructions.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ability.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation System\AnimTimeStamp.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation System\AnimationSystem.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation System\Animation.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Acheivements.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcadeGamePlay.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Barracks.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AccuracyBar.h">
+      <Filter>Quick Time Events</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBar.h">
+      <Filter>Quick Time Events</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBuilding.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlayer.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUnit.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePlay.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGame.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="LoseGame.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGame.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="WinGame.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_Direct3D.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_DirectInput.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_EventSystem.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_MessageSystem.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_TextureManager.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_XAudio2.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCry.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Blizzard.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Charge.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Cleave.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkCharge.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkCurse.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DrainLife.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpoweringCurse.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Explode.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameOn.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Heal.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HealingCircle.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="IAbility.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Judgement.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlagueOn.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowBolt.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonVolatileGhoul.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferLife.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFont.h">
+      <Filter>Bitmap Font</Filter>
+    </ClInclude>
+    <ClInclude Include="CatapultAttack.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BlizzardMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CatapultAttackingMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CleaveMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateAbilityMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateAbilityTwoMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyAbilityMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyDarkCurseMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyGhoulMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Capitol.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CEvent.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation System\Frames.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="HealingCircleMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\IMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\IListener.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="FillBar.h">
+      <Filter>Quick Time Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerBar.h">
+      <Filter>Quick Time Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SpamBar.h">
+      <Filter>Quick Time Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle System\Emitter.h">
+      <Filter>Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSystem\CTileSystem.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSystem\WorldTile.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSystem\WorldGrid.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\EntityManager.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntity.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSystem\Tile.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle System\Particle.h">
+      <Filter>Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Letters.h">
+      <Filter>Bitmap Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodMill.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WarFactory.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle System\ParticleSystem.h">
+      <Filter>Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Util.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Math.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_String.h">
+      <Filter>SGD Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingText.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSystem\BattleGrid.h">
+      <Filter>Tile System</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyGhoulMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPlay.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Instructions.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{411877fd-f7b0-48ec-9204-537a55902cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SGD Wrappers">
+      <UniqueIdentifier>{ebf41cc5-0071-43a5-803b-982f854b7b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile System">
+      <UniqueIdentifier>{eeb61d08-174c-468f-874b-b139b3122132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities">
+      <UniqueIdentifier>{0594e9d0-c905-4616-9021-d20582c27036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations">
+      <UniqueIdentifier>{44f1a5ae-11f7-4083-b743-c5e75ba76c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quick Time Events">
+      <UniqueIdentifier>{3c993849-f0d5-4d4b-b9c2-3fc95a24c5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{503e13bb-0b51-4b17-ab3d-b37f2079715e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle System">
+      <UniqueIdentifier>{f1be369b-3001-4a1f-8405-f563d713d366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{db41aa8f-c778-4050-8a03-0fb9f023b669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitmap Font">
+      <UniqueIdentifier>{06cbbf20-2a06-42b4-bf9f-d264c4b54569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{ac4a8e1d-698b-49a5-af0b-3016767bf63a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArchaicDomination.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+</Project>

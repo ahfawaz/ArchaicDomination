@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Effect>
+  <Emitter ImageID="Resources/Graphics/TorqueX_Particle_Effect_Guide_snow.png" EmitterPosX="440" EmitterPosY="410" Width="32" Height="32" MinLife="0.2" MaxLife="0.6" GravityX="0" GravityY="43" CurrRotation="359.999998001152" StartingRotation="2" EndingRotation="3" SpreadValue="359.999998001152" AngularOffset="0" StartingAlpha="255" EndingAlpha="255" StartingColorR="255" EndingColorR="64" StartingColorG="128" EndingColorG="0" StartingColorB="0" EndingColorB="64" Looping="true" SpawnRate="0.001" MaxParticle="50" StartingAccelerationX="-10" EndingAccelerationX="10" StartingAccelerationY="-10" EndingAccelerationY="10" StartingVelocityX="-10" EndingVelocityX="10" StartingVelocityY="-43" EndingVelocityY="35" StartingScaleX="0.2" EndingScaleX="1" StartingScaleY="0.2" EndingScaleY="1" EmitterRangeX="0" EmitterRangeY="0" />
+</Effect>

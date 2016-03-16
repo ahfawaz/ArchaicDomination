@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Effect>
+  <Emitter ImageID="Resources/Graphics/FirePuff.png" EmitterPosX="357" EmitterPosY="288" Width="96" Height="96" MinLife="1" MaxLife="2" GravityX="-43" GravityY="51" CurrRotation="360" StartingRotation="1" EndingRotation="360" SpreadValue="360" AngularOffset="0" StartingAlpha="255" EndingAlpha="255" StartingColorR="255" EndingColorR="255" StartingColorG="255" EndingColorG="0" StartingColorB="0" EndingColorB="0" Looping="true" SpawnRate="0.01" MaxParticle="60" StartingAccelerationX="0" EndingAccelerationX="0.001" StartingAccelerationY="0" EndingAccelerationY="0.001" StartingVelocityX="0" EndingVelocityX="0" StartingVelocityY="0" EndingVelocityY="0" StartingScaleX="1" EndingScaleX="2" StartingScaleY="1" EndingScaleY="2" EmitterRangeX="0" EmitterRangeY="0" />
+</Effect>

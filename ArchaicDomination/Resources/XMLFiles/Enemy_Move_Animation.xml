@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Necromancer_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="37" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="15" RenderRectTop="9" RenderRectRight="56" RenderRectBottom="53" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="78" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="56" RenderRectTop="12" RenderRectRight="96" RenderRectBottom="53" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Necromancer_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="406" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="388" RenderRectTop="11" RenderRectRight="427" RenderRectBottom="52" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="447" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="428" RenderRectTop="10" RenderRectRight="468" RenderRectBottom="55" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Skeleton_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="400" AnchorPointY="210" Duration="0.25" Event="New Event" RenderRectLeft="377" RenderRectTop="184" RenderRectRight="422" RenderRectBottom="228" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="444" AnchorPointY="210" Duration="0.25" Event="New Event" RenderRectLeft="422" RenderRectTop="182" RenderRectRight="467" RenderRectBottom="231" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Skeleton_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="37" AnchorPointY="207" Duration="0.25" Event="New Event" RenderRectLeft="17" RenderRectTop="188" RenderRectRight="60" RenderRectBottom="227" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="83" AnchorPointY="207" Duration="0.25" Event="New Event" RenderRectLeft="63" RenderRectTop="185" RenderRectRight="104" RenderRectBottom="228" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Lich_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="400" AnchorPointY="314" Duration="0.5" Event="New Event" RenderRectLeft="381" RenderRectTop="294" RenderRectRight="416" RenderRectBottom="335" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="439" AnchorPointY="314" Duration="0.5" Event="New Event" RenderRectLeft="426" RenderRectTop="295" RenderRectRight="457" RenderRectBottom="334" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Lich_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="44" AnchorPointY="313" Duration="0.5" Event="New Event" RenderRectLeft="29" RenderRectTop="293" RenderRectRight="60" RenderRectBottom="333" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="85" AnchorPointY="313" Duration="0.5" Event="New Event" RenderRectLeft="71" RenderRectTop="292" RenderRectRight="101" RenderRectBottom="335" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="DeathKnight_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="32" AnchorPointY="150" Duration="0.2" Event="New Event" RenderRectLeft="11" RenderRectTop="122" RenderRectRight="76" RenderRectBottom="177" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="102" AnchorPointY="150" Duration="0.2" Event="New Event" RenderRectLeft="77" RenderRectTop="105" RenderRectRight="153" RenderRectBottom="176" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="DeathKnight_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="372" AnchorPointY="150" Duration="0.2" Event="New Event" RenderRectLeft="334" RenderRectTop="105" RenderRectRight="403" RenderRectBottom="176" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="442" AnchorPointY="150" Duration="0.2" Event="New Event" RenderRectLeft="404" RenderRectTop="123" RenderRectRight="476" RenderRectBottom="176" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="WarMachine_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="40" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="18" RenderRectTop="405" RenderRectRight="63" RenderRectBottom="445" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="89" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="67" RenderRectTop="404" RenderRectRight="116" RenderRectBottom="447" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="WarMachine_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="391" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="371" RenderRectTop="406" RenderRectRight="413" RenderRectBottom="447" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="441" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="418" RenderRectTop="406" RenderRectRight="467" RenderRectBottom="449" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Ghoul_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="145" AnchorPointY="32" Duration="0.15" Event="New Event" RenderRectLeft="129" RenderRectTop="12" RenderRectRight="166" RenderRectBottom="51" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="193" AnchorPointY="32" Duration="0.15" Event="New Event" RenderRectLeft="172" RenderRectTop="13" RenderRectRight="214" RenderRectBottom="51" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Enemy_Walking_Set.png" AnimationName="Ghoul_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="288" AnchorPointY="34" Duration="0.15" Event="New Event" RenderRectLeft="271" RenderRectTop="14" RenderRectRight="309" RenderRectBottom="53" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="336" AnchorPointY="34" Duration="0.15" Event="New Event" RenderRectLeft="316" RenderRectTop="14" RenderRectRight="357" RenderRectBottom="54" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+</Animations>

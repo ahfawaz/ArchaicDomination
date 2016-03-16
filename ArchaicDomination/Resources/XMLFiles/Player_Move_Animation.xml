@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Priest_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="37" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="15" RenderRectTop="9" RenderRectRight="56" RenderRectBottom="53" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="78" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="56" RenderRectTop="12" RenderRectRight="96" RenderRectBottom="53" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Priest_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="406" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="388" RenderRectTop="11" RenderRectRight="427" RenderRectBottom="52" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="447" AnchorPointY="32" Duration="0.5" Event="New Event" RenderRectLeft="428" RenderRectTop="10" RenderRectRight="468" RenderRectBottom="55" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Catapult_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="40" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="18" RenderRectTop="405" RenderRectRight="63" RenderRectBottom="445" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="89" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="67" RenderRectTop="404" RenderRectRight="116" RenderRectBottom="447" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Catapult_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="391" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="371" RenderRectTop="406" RenderRectRight="413" RenderRectBottom="447" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="441" AnchorPointY="424" Duration="0.75" Event="New Event" RenderRectLeft="418" RenderRectTop="406" RenderRectRight="467" RenderRectBottom="449" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Wizard_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="35" AnchorPointY="82" Duration="0.5" Event="New Event" RenderRectLeft="20" RenderRectTop="63" RenderRectRight="54" RenderRectBottom="105" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="78" AnchorPointY="82" Duration="0.5" Event="New Event" RenderRectLeft="62" RenderRectTop="62" RenderRectRight="96" RenderRectBottom="104" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Wizard_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="407" AnchorPointY="84" Duration="0.5" Event="New Event" RenderRectLeft="389" RenderRectTop="67" RenderRectRight="423" RenderRectBottom="105" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="446" AnchorPointY="84" Duration="0.5" Event="New Event" RenderRectLeft="428" RenderRectTop="65" RenderRectRight="466" RenderRectBottom="104" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Soldier_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="47" AnchorPointY="262" Duration="0.25" Event="New Event" RenderRectLeft="26" RenderRectTop="228" RenderRectRight="72" RenderRectBottom="287" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="93" AnchorPointY="262" Duration="0.25" Event="New Event" RenderRectLeft="75" RenderRectTop="230" RenderRectRight="117" RenderRectBottom="286" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Soldier_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="386" AnchorPointY="266" Duration="0.25" Event="New Event" RenderRectLeft="365" RenderRectTop="233" RenderRectRight="413" RenderRectBottom="286" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="433" AnchorPointY="266" Duration="0.25" Event="New Event" RenderRectLeft="417" RenderRectTop="232" RenderRectRight="461" RenderRectBottom="288" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="General_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="394" AnchorPointY="369" Duration="0.25" Event="New Event" RenderRectLeft="371" RenderRectTop="346" RenderRectRight="416" RenderRectBottom="388" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="439" AnchorPointY="369" Duration="0.25" Event="New Event" RenderRectLeft="419" RenderRectTop="346" RenderRectRight="459" RenderRectBottom="389" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="General_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="44" AnchorPointY="366" Duration="0.25" Event="New Event" RenderRectLeft="22" RenderRectTop="345" RenderRectRight="63" RenderRectBottom="382" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="86" AnchorPointY="366" Duration="0.25" Event="New Event" RenderRectLeft="63" RenderRectTop="343" RenderRectRight="106" RenderRectBottom="384" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Calvary_Right" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="41" AnchorPointY="476" Duration="0.2" Event="New Event" RenderRectLeft="23" RenderRectTop="456" RenderRectRight="64" RenderRectBottom="496" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="87" AnchorPointY="476" Duration="0.2" Event="New Event" RenderRectLeft="64" RenderRectTop="456" RenderRectRight="111" RenderRectBottom="499" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+  <Animation ImageID="Resources/Graphics/Player_Walking_Set.png" AnimationName="Calvary_Left" numFrames="2" isLooping="true">
+    <Frame AnchorPointX="395" AnchorPointY="476" Duration="0.2" Event="New Event" RenderRectLeft="371" RenderRectTop="460" RenderRectRight="413" RenderRectBottom="498" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+    <Frame AnchorPointX="442" AnchorPointY="476" Duration="0.2" Event="New Event" RenderRectLeft="421" RenderRectTop="456" RenderRectRight="464" RenderRectBottom="498" ActiveRectLeft="0" ActiveRectTop="0" ActiveRectRight="0" ActiveRectBottom="0" CollisionRectLeft="0" CollisionRectTop="0" CollisionRectRight="0" CollisionRectBottom="0" />
+  </Animation>
+</Animations>

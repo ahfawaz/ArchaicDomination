@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ability.h" />
+    <ClInclude Include="AccuracyBar.h" />
+    <ClInclude Include="Acheivements.h" />
+    <ClInclude Include="Animation System\Animation.h" />
+    <ClInclude Include="Animation System\AnimationSystem.h" />
+    <ClInclude Include="Animation System\AnimTimeStamp.h" />
+    <ClInclude Include="Animation System\Frames.h" />
+    <ClInclude Include="ArcadeGamePlay.h" />
+    <ClInclude Include="Barracks.h" />
+    <ClInclude Include="BaseBar.h" />
+    <ClInclude Include="BaseBuilding.h" />
+    <ClInclude Include="BasePlayer.h" />
+    <ClInclude Include="BaseUnit.h" />
+    <ClInclude Include="BattleCry.h" />
+    <ClInclude Include="BattlePlay.h" />
+    <ClInclude Include="BitmapFont.h" />
+    <ClInclude Include="Blizzard.h" />
+    <ClInclude Include="BlizzardMessage.h" />
+    <ClInclude Include="Capitol.h" />
+    <ClInclude Include="CatapultAttack.h" />
+    <ClInclude Include="CatapultAttackingMessage.h" />
+    <ClInclude Include="Charge.h" />
+    <ClInclude Include="Cleave.h" />
+    <ClInclude Include="CleaveMessage.h" />
+    <ClInclude Include="CreateAbilityMessage.h" />
+    <ClInclude Include="CreateAbilityTwoMessage.h" />
+    <ClInclude Include="Credits.h" />
+    <ClInclude Include="DarkCharge.h" />
+    <ClInclude Include="DarkCurse.h" />
+    <ClInclude Include="DestroyAbilityMessage.h" />
+    <ClInclude Include="DestroyDarkCurseMessage.h" />
+    <ClInclude Include="DestroyGhoulMessage.h" />
+    <ClInclude Include="DrainLife.h" />
+    <ClInclude Include="EmpoweringCurse.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Explode.h" />
+    <ClInclude Include="Farm.h" />
+    <ClInclude Include="FillBar.h" />
+    <ClInclude Include="Fireball.h" />
+    <ClInclude Include="FlameOn.h" />
+    <ClInclude Include="FloatingText.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GamePlay.h" />
+    <ClInclude Include="Heal.h" />
+    <ClInclude Include="HealingCircle.h" />
+    <ClInclude Include="HealingCircleMessage.h" />
+    <ClInclude Include="IAbility.h" />
+    <ClInclude Include="IEntity.h" />
+    <ClInclude Include="IGameState.h" />
+    <ClInclude Include="Instructions.h" />
+    <ClInclude Include="Judgement.h" />
+    <ClInclude Include="Letters.h" />
+    <ClInclude Include="LoadGame.h" />
+    <ClInclude Include="LoseGame.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="Mine.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="Particle System\Emitter.h" />
+    <ClInclude Include="Particle System\Particle.h" />
+    <ClInclude Include="Particle System\ParticleSystem.h" />
+    <ClInclude Include="Pause.h" />
+    <ClInclude Include="PlagueOn.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PowerBar.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SaveGame.h" />
+    <ClInclude Include="SGD Wrappers\CEvent.h" />
+    <ClInclude Include="SGD Wrappers\CSGD_Direct3D.h" />
+    <ClInclude Include="SGD Wrappers\CSGD_DirectInput.h" />
+    <ClInclude Include="SGD Wrappers\CSGD_EventSystem.h" />
+    <ClInclude Include="SGD Wrappers\CSGD_MessageSystem.h" />
+    <ClInclude Include="SGD Wrappers\CSGD_TextureManager.h" />
+    <ClInclude Include="SGD Wrappers\CSGD_XAudio2.h" />
+    <ClInclude Include="SGD Wrappers\EntityManager.h" />
+    <ClInclude Include="SGD Wrappers\IListener.h" />
+    <ClInclude Include="SGD Wrappers\IMessage.h" />
+    <ClInclude Include="SGD Wrappers\SGD_Math.h" />
+    <ClInclude Include="SGD Wrappers\SGD_String.h" />
+    <ClInclude Include="SGD Wrappers\SGD_Util.h" />
+    <ClInclude Include="ShadowBolt.h" />
+    <ClInclude Include="SpamBar.h" />
+    <ClInclude Include="SummonVolatileGhoul.h" />
+    <ClInclude Include="TileSystem\BattleGrid.h" />
+    <ClInclude Include="TileSystem\CTileSystem.h" />
+    <ClInclude Include="TileSystem\Tile.h" />
+    <ClInclude Include="TileSystem\WorldGrid.h" />
+    <ClInclude Include="TileSystem\WorldTile.h" />
+    <ClInclude Include="TinyXML\tinystr.h" />
+    <ClInclude Include="TinyXML\tinyxml.h" />
+    <ClInclude Include="TitleScreen.h" />
+    <ClInclude Include="TransferLife.h" />
+    <ClInclude Include="WarFactory.h" />
+    <ClInclude Include="WinGame.h" />
+    <ClInclude Include="WoodMill.h" />
+    <ClInclude Include="WorldPlay.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ability.cpp" />
+    <ClCompile Include="AccuracyBar.cpp" />
+    <ClCompile Include="Acheivements.cpp" />
+    <ClCompile Include="Animation System\Animation.cpp" />
+    <ClCompile Include="Animation System\AnimationSystem.cpp" />
+    <ClCompile Include="Animation System\AnimTimeStamp.cpp" />
+    <ClCompile Include="Animation System\Frames.cpp" />
+    <ClCompile Include="ArcadeGamePlay.cpp" />
+    <ClCompile Include="Barracks.cpp" />
+    <ClCompile Include="BaseBar.cpp" />
+    <ClCompile Include="BaseBuilding.cpp" />
+    <ClCompile Include="BasePlayer.cpp" />
+    <ClCompile Include="BaseUnit.cpp" />
+    <ClCompile Include="BattleCry.cpp" />
+    <ClCompile Include="BattlePlay.cpp" />
+    <ClCompile Include="BitmapFont.cpp" />
+    <ClCompile Include="Blizzard.cpp" />
+    <ClCompile Include="BlizzardMessage.cpp" />
+    <ClCompile Include="Capitol.cpp" />
+    <ClCompile Include="CatapultAttack.cpp" />
+    <ClCompile Include="CatapultAttackingMessage.cpp" />
+    <ClCompile Include="Charge.cpp" />
+    <ClCompile Include="Cleave.cpp" />
+    <ClCompile Include="CleaveMessage.cpp" />
+    <ClCompile Include="CreateAbilityMessage.cpp" />
+    <ClCompile Include="CreateAbilityTwoMessage.cpp" />
+    <ClCompile Include="Credits.cpp" />
+    <ClCompile Include="CTileSystem.cpp" />
+    <ClCompile Include="DarkCharge.cpp" />
+    <ClCompile Include="DarkCurse.cpp" />
+    <ClCompile Include="DestroyAbilityMessage.cpp" />
+    <ClCompile Include="DestroyDarkCurseMessage.cpp" />
+    <ClCompile Include="DestroyGhoulMessage.cpp" />
+    <ClCompile Include="DrainLife.cpp" />
+    <ClCompile Include="EmpoweringCurse.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Explode.cpp" />
+    <ClCompile Include="Farm.cpp" />
+    <ClCompile Include="FillBar.cpp" />
+    <ClCompile Include="Fireball.cpp" />
+    <ClCompile Include="FlameOn.cpp" />
+    <ClCompile Include="FloatingText.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GamePlay.cpp" />
+    <ClCompile Include="Heal.cpp" />
+    <ClCompile Include="HealingCircle.cpp" />
+    <ClCompile Include="HealingCircleMessage.cpp" />
+    <ClCompile Include="Instructions.cpp" />
+    <ClCompile Include="Judgement.cpp" />
+    <ClCompile Include="Letters.cpp" />
+    <ClCompile Include="LoadGame.cpp" />
+    <ClCompile Include="LoseGame.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="Particle System\Emitter.cpp" />
+    <ClCompile Include="Particle System\Particle.cpp" />
+    <ClCompile Include="Particle System\ParticleSystem.cpp" />
+    <ClCompile Include="Pause.cpp" />
+    <ClCompile Include="PlagueOn.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PowerBar.cpp" />
+    <ClCompile Include="SaveGame.cpp" />
+    <ClCompile Include="SGD Wrappers\CSGD_Direct3D.cpp" />
+    <ClCompile Include="SGD Wrappers\CSGD_DirectInput.cpp" />
+    <ClCompile Include="SGD Wrappers\CSGD_EventSystem.cpp" />
+    <ClCompile Include="SGD Wrappers\CSGD_MessageSystem.cpp" />
+    <ClCompile Include="SGD Wrappers\CSGD_TextureManager.cpp" />
+    <ClCompile Include="SGD Wrappers\CSGD_XAudio2.cpp" />
+    <ClCompile Include="SGD Wrappers\EntityManager.cpp" />
+    <ClCompile Include="SGD Wrappers\SGD_Math.cpp" />
+    <ClCompile Include="ShadowBolt.cpp" />
+    <ClCompile Include="SpamBar.cpp" />
+    <ClCompile Include="SummonVolatileGhoul.cpp" />
+    <ClCompile Include="TileSystem\BattleGrid.cpp" />
+    <ClCompile Include="TileSystem\Tile.cpp" />
+    <ClCompile Include="TileSystem\WorldGrid.cpp" />
+    <ClCompile Include="TileSystem\WorldTile.cpp" />
+    <ClCompile Include="TinyXML\tinystr.cpp" />
+    <ClCompile Include="TinyXML\tinyxml.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="TitleScreen.cpp" />
+    <ClCompile Include="TransferLife.cpp" />
+    <ClCompile Include="WarFactory.cpp" />
+    <ClCompile Include="WinGame.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="WoodMill.cpp" />
+    <ClCompile Include="WorldPlay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArchaicDomination.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C3843B8-43B4-40B9-827C-95F07A454FAC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ArchaicDomination</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
